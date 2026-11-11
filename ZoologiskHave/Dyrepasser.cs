@@ -13,4 +13,9 @@
     {
         Console.WriteLine("Hallo, velkommen i vores zoo");
     }
+
+    public void Tal(string tale)
+    {
+        Console.WriteLine(tale);
+    }
 }

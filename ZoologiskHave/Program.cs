@@ -14,10 +14,4 @@ Tina.Tal();
 Tiger Fenja = new Tiger("Fenja", 3, "Hun", "Indien", "Bengal Tiger"); 
 Fenja.Spis();
 Fenja.Sov();
-Fenja.Brøler();
-
-Per.Sov();
-Fenja.Brøler();
-
-Per.Spis(); 
-Console.WriteLine(Mikkel.Alder);
+Fenja.BrÃ¸ler();
