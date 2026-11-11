@@ -19,3 +19,4 @@ Fenja.Brøler();
 
 Per.Sov();
 Fenja.Brøler();
+Per.Spis(); 
