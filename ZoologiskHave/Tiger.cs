@@ -12,7 +12,7 @@
 
     public override void Spis()
     {
-        Console.WriteLine($"{Navn} spiser kød.");
+        Console.WriteLine($"{Navn} spiser koed.");
     }
 
     public override void Sov()
@@ -22,7 +22,7 @@
 
     public void Broeler()
     {
-        Console.WriteLine($"{Navn} Brøler.");
+        Console.WriteLine($"{Navn} Broeler.");
     }
 
 
