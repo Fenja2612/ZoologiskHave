@@ -22,7 +22,10 @@
             Console.WriteLine($"{Navn} spiser bambus.");
         }
 
-
+        public void Sov()
+        {
+            Console.WriteLine($"{Navn} sover.");
+        }
 
     }
 }
