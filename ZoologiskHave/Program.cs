@@ -14,4 +14,16 @@ Tina.Tal();
 Tiger Fenja = new Tiger("Fenja", 3, "Hun", "Indien", "Bengal Tiger"); 
 Fenja.Spis();
 Fenja.Sov();
-Fenja.Brøler();
+Fenja.Br�ler();
+
+Per.Sov();
+Fenja.Br�ler();
+
+Per.Spis(); 
+Console.WriteLine(Mikkel.Alder);
+
+Panda Alberte = new Panda ("Alberte", 4, "Hun", "Kina", "Giant Panda");
+Alberte.Spis();
+Alberte.Sov();
+Console.WriteLine(Alberte.Alder);
+Console.WriteLine(Alberte.Oprindelsesland);
