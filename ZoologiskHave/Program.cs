@@ -26,3 +26,4 @@ Panda Alberte = new Panda ("Alberte", 4, "Hun", "Kina", "Giant Panda");
 Alberte.Spis();
 Alberte.Sov();
 Console.WriteLine(Alberte.Alder);
+Console.WriteLine(Alberte.Oprindelsesland);
