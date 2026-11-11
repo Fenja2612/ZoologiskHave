@@ -1,14 +1,8 @@
 ﻿namespace ZoologiskHave
 {
-    public class Panda
+    public class Panda : Dyr
     {
-        public string Navn { get; set; }
-        public int Alder { get; set; }
-        public string Køn { get; set; }
-        public string Oprindelsesland { get; set; }
-        public string Art { get; set; }
-
-        public Panda(string navn, int alder, string køn, string oprindelsesland, string art)
+        public Panda(string navn, int alder, string køn, string oprindelsesland, string art) : base(navn, alder, køn, oprindelsesland, art)
         {
             Navn = navn;
             Alder = alder;
@@ -17,12 +11,12 @@
             Art = art;
         }   
 
-        public void Spis()
+        public override void Spis()
         {
             Console.WriteLine($"{Navn} spiser bambus.");
         }
 
-        public void Sov()
+        public override void Sov()
         {
             Console.WriteLine($"{Navn} sover.");
         }
