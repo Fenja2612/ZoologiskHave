@@ -15,7 +15,3 @@ Tiger Fenja = new Tiger("Fenja", 3, "Hun", "Indien", "Bengal Tiger");
 Fenja.Spis();
 Fenja.Sov();
 Fenja.Brøler();
-
-Per.Sov();
-Fenja.Brøler();
-Console.WriteLine(Mikkel.Alder);
