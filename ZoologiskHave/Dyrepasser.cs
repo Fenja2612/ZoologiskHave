@@ -1,7 +1,7 @@
 ﻿public class Dyrepasser
 {
-    public int Id; { get; }
-    public string Navn; { get; set; }
+    public int Id { get; }
+    public string Navn { get; set; }
 
     public Dyrepasser(int id, string navn)
     {
