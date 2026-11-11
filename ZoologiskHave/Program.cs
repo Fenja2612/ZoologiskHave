@@ -7,7 +7,6 @@ Mikkel.Sov();
 
 Tiger Per = new("Per", 3, "Han", "Indien", "White Tiger");
 Per.Spis();
-Per.Sov();
 
 Dyrepasser Tina = new(2, "Tina");
 Tina.Tal();
@@ -19,4 +18,6 @@ Fenja.Brøler();
 
 Per.Sov();
 Fenja.Brøler();
+
 Per.Spis(); 
+Console.WriteLine(Mikkel.Alder);
