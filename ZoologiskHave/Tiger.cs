@@ -20,7 +20,7 @@
         Console.WriteLine($"{Navn} sover.");
     }
 
-    public void Brøler()
+    public void Broeler()
     {
         Console.WriteLine($"{Navn} Brøler.");
     }
