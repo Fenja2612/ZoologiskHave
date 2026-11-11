@@ -1,4 +1,4 @@
-﻿abstract class Dyr
+﻿public abstract class Dyr
 {
     public string Navn { get; set; }
     public int Alder { get; set; }
