@@ -21,3 +21,8 @@ Fenja.Brøler();
 
 Per.Spis(); 
 Console.WriteLine(Mikkel.Alder);
+
+Panda Alberte = new Panda ("Alberte", 4, "Hun", "Kina", "Giant Panda");
+Alberte.Spis();
+Alberte.Sov();
+Console.WriteLine(Alberte.Alder);
